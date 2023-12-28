@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         // Get Advent class
-        AdventSolver adventSolver = AdventSolverFactory.getAdventSolver(2023, 3, 2);
+        AdventSolver adventSolver = AdventSolverFactory.getAdventSolver(2023, 4, 2);
         // Load input
         adventSolver.loadInput("input.txt");
         // Run the program

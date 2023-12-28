@@ -10,7 +10,9 @@ public class AdventSolverFactory {
                    "2023_2_1", new Advent2023Day2Part1(),
                    "2023_2_2", new Advent2023Day2Part2(),
                    "2023_3_1", new Advent2023Day3Part1(),
-                   "2023_3_2", new Advent2023Day3Part2());
+                   "2023_3_2", new Advent2023Day3Part2(),
+                   "2023_4_1", new Advent2023Day4Part1(),
+                   "2023_4_2", new Advent2023Day4Part2());
 
     public static String buildString(int year, int day, int part) {
         return String.format("%d_%d_%d", year, day, part);
